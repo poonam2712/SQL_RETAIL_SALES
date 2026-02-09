@@ -71,10 +71,8 @@ select distinct(category) from retail_sales;
 **-- data analysis and busniess key problem with answers.**
 
 -- Q.1] WRITE SQL QUERY TO RETRIVE ALL COLUMNS FOR SALES MADE ON '2022-11-05'.
-'''sql
 select * from retail_sales
 where sale_date='2022-11-05';
-'''
 
 -- Q2].WRITE A SQL QUERY TO RETRIVE ALL TRANSACTION WHERE THE CATEGORY IS "CLOTHING" AND THE QUANTITY SOLD IS MORE THAN 4 IN THE MONTH OF NOV-2022.
 
