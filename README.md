@@ -18,6 +18,7 @@ Table Creation: A table named retail_sales is created to store the sales data. T
 CREATE DATABASE project;
 
 CREATE TABLE retail_sales
+''' sql
 (
     transactions_id INT PRIMARY KEY,
     sale_date DATE,	
@@ -31,6 +32,7 @@ CREATE TABLE retail_sales
     cogs FLOAT,
     total_sale FLOAT
 );
+'''
 **2. Data Exploration & Cleaning**
 Record Count: Determine the total number of records in the dataset.
 Customer Count: Find out how many unique customers are in the dataset.
