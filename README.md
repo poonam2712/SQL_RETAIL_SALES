@@ -55,7 +55,9 @@ customer_id is null
 or gender is null;
 
 **-- DATA EXPLORATION**
+
 -- HOW MANY SALES WE HAVE?
+
 select count(*) as total_sales from retail_sales;
 
 -- how many unique customer we have?
@@ -63,6 +65,7 @@ select count(*) as total_sales from retail_sales;
 select count(distinct(customer_id)) as total_customer from retail_sales;
 
 -- how many category we have?
+
 select distinct(category) from retail_sales;
 
 **-- data analysis and busniess key problem with answers.**
@@ -73,6 +76,7 @@ select * from retail_sales
 where sale_date='2022-11-05';
 
 -- Q2].WRITE A SQL QUERY TO RETRIVE ALL TRANSACTION WHERE THE CATEGORY IS "CLOTHING" AND THE QUANTITY SOLD IS MORE THAN 4 IN THE MONTH OF NOV-2022.
+
 SELECT *
 FROM retail_sales
 WHERE category = 'clothing'
